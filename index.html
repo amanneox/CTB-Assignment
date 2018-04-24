@@ -70,17 +70,19 @@
     <h3 id="insta-head"class="text-center">Follow us on instagram</h3>
     <p style="color:#fff;" class="text-center">@tamtamnl</p>
   </div>
+
   <div class="container">
-    <div class="row">
-  <div class="col">
-    <div id="app" class="card" style="width: 18rem;">
-      <img class="card-img-top" src="..." alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">{{title}}</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <div id="app" class="row">
+    <div class="col-sm " v-for="(result, index) in object">
+        <div class="card">
+          <img class="card-img-top" v-bind:src="result.url" alt="Card image cap">
+
+          <div class="card-body">
+            <p class="card-title"> {{ index }} </p>
+            <p class="card-text">{{ result.text }}</p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
     </div>
   </div>
 
