@@ -1,0 +1,19 @@
+.control{border-radius: 50%;
+    background-color: #000;
+    color: #fff;
+
+
+}
+.carousel-control-prev{
+padding-left: 40%;
+opacity: 1;
+}
+.carousel-control-next{
+  padding-right: 40%;
+  opacity: 1;
+}
+.heading{
+  color: #000;
+  top: 50%;
+  transform: translateY(-50%);
+}
