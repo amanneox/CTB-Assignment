@@ -1,19 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
 .control{border-radius: 50%;
     background-color: #000;
     color: #fff;
-
-
 }
 .carousel-control-prev{
-padding-left: 40%;
+padding-left: 80%;
 opacity: 1;
 }
 .carousel-control-next{
-  padding-right: 40%;
+  padding-right: 80%;
   opacity: 1;
 }
 .heading{
   color: #000;
   top: 50%;
   transform: translateY(-50%);
+}
+.control:hover{
+    background-color: #FF5722;
+}
+.scroll{
+  color: #FF5722;
+  background-color: #fff;
+  border-radius: 50%;
+}
+#insta{
+    background-color: #B0BEC5;
+    width: 100% !important
+
+}
+#insta-head{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #78909C;
+  text-transform: uppercase;
+}
+#head{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+#team{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#team-content{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
 }
