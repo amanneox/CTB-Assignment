@@ -68,21 +68,23 @@
 <div id="insta" class="container-fluid">
   <div style="padding:2em;" >
     <h3 id="insta-head"class="text-center">Follow us on instagram</h3>
-    <p style="color:#fff;" class="text-center">@tamtamnl</p>
+    <p id="insta-id" style="color:#fff;" class="text-center">@tamtamnl</p>
   </div>
 
-  <div class="container">
-    <div id="app" class="row">
-    <div class="col-sm " v-for="(result, index) in object">
-        <div class="card">
-          <img class="card-img-top" v-bind:src="result.url" alt="Card image cap">
+  <div  id="app" class="container">
+    <div id="feed" class="row">
+    <div class="col col-xs-12" v-for="(result, index) in object">
 
+        <div class="card feed-card" style="width: 18rem;">
+          <img class="card-img-top" v-bind:src="result.url" alt="Card image">
           <div class="card-body">
-            <p class="card-title"> {{ index }} </p>
             <p class="card-text">{{ result.text }}</p>
           </div>
         </div>
+        <br>
+
       </div>
+
     </div>
   </div>
 

@@ -50,3 +50,29 @@ opacity: 1;
   font-family: 'Open Sans', sans-serif;
   font-weight: 200;
 }
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+#feed{
+  display: inline;
+}
+.feed-card{
+  width: 100% !important;
+}
+.card-body{
+  font-size: 2em;
+}
+#team-content{
+  font-size: 2.5em;
+}
+#team{
+  font-size: 3.5em;
+}
+#insta-id{
+  font-size: 2em;
+}
+#insta-head{
+  font-size: 2.5em;
+}
+}
