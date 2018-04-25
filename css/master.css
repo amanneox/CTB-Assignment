@@ -44,18 +44,22 @@ opacity: 1;
 #team{
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
+    padding-bottom: 1em;
   text-transform: uppercase;
 }
 #team-content{
   font-family: 'Open Sans', sans-serif;
   font-weight: 200;
+  padding-bottom: 1em;
+  padding: 4em;
 }
 @media only screen
   and (min-device-width: 320px)
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
-    .container, .row {
-      max-width: 100%;
+
+     #app{
+         max-width: 100%;
      }
 #feed{
   display: inline;
@@ -68,9 +72,12 @@ opacity: 1;
 }
 #team-content{
   font-size: 2.5em;
+  padding: 1em !important;
+
 }
 #team{
   font-size: 3.5em;
+  padding-bottom: : 0em !important;
 }
 #insta-id{
   font-size: 2em;
@@ -78,4 +85,14 @@ opacity: 1;
 #insta-head{
   font-size: 2.5em;
 }
+}
+#container-carousel{
+
+}
+#container-tam{
+background-color: #fff;
+}
+#main-body{
+  padding: 3em;
+  background-color: #000;
 }
