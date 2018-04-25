@@ -94,6 +94,7 @@ background-color: #fff;
 }
 #main-body{
   padding: 3em;
+  padding-top: 0;
   background-color: #000;
 }
 .icons{
@@ -104,4 +105,16 @@ footer{
 }
 .social{
   margin: 1em;
+}
+.navbar{
+  background-color: #000 !important
+}
+.nav-link{
+  color: #fff !important;
+}
+.navbar-brand{
+    color: #fff !important;
+}
+.navbar-toggler{
+    background-color: #fff !important;
 }
