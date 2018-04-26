@@ -33,9 +33,7 @@ form {
   padding-right: 1em;
 }
 
-.send-wrapper {
-
-}
+.send-wrapper {}
 
 #send {
   border-radius: 14px;
@@ -153,16 +151,15 @@ footer {
   #main-body {
     padding: 0;
   }
-  input{
+  input {
     height: 32px !important;
   }
-  label{
+  label {
     height: 26px !important;
   }
-  textarea{
+  textarea {
     height: 70px !important;
   }
-
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
@@ -221,4 +218,26 @@ label {
   background: url('../img/checked.png') center right 10px;
   background-repeat: no-repeat;
   background-origin: content-box;
+}
+
+.up-arrow:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 20px;
+  bottom: 100%;
+  width: 0;
+  height: 0;
+  border-bottom: 10px solid #455A64;
+  border-top: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+
+.up-arrow {
+  display: inline-block;
+  position: relative;
+  background: #455A64;
+  color: #FFF;
+  text-decoration: none;
 }

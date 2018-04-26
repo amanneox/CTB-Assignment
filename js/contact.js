@@ -29,6 +29,7 @@ $(function() {
 
     invalidHandler: function(form, validator) {
       $('#failed').show();
+
     },
     success: function(label) {
       label.addClass("valid");
@@ -40,6 +41,11 @@ $(function() {
       $('#failed').remove();
       $('#success').show();
       e.preventDefault();
-    }
+    },
+    highlight: function(element, errorClass, validClass) {
+      $('label').addClass('up-arrow');
+    },
+
   });
+
 });
