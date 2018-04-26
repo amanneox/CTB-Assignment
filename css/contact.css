@@ -1,29 +1,49 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+input {
+  border-radius: 0 !important;
+  height: 48px !important;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+}
+
+textarea {
+  border-radius: 0 !important;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+}
 
 #form {
   padding-top: 0;
   padding-right: 14em;
   padding-left: 14em;
 }
-form{
-  background-color: rgba(203,203,203,0.3);
+
+form {
+  background-color: rgba(203, 203, 203, 0.3);
 }
-#first-row{
+
+#first-row {
   padding-top: 1em;
 }
-.form-row{
+
+.form-row {
   padding-left: 1em;
   padding-right: 1em;
 }
-.send-wrapper{
+
+.send-wrapper {
   padding-top: 2em;
 }
-#send{
+
+#send {
   border-radius: 14px;
   color: #fff;
   width: 130px;
   background-color: #FF6E40;
 }
+
 #head-title {
   padding: 3em;
   font-family: 'Open Sans', sans-serif;
@@ -125,12 +145,12 @@ footer {
     padding-right: 0 !important;
     padding-left: 0 !important;
   }
-  #head-title{
+  #head-title {
     padding: 0 !important;
     padding-top: 1em !important;
     font-size: 1.6em !important;
   }
-  #main-body{
+  #main-body {
     padding: 0;
   }
 }
