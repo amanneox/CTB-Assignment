@@ -1,53 +1,69 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
-.control{border-radius: 50%;
-    background-color: #000;
-    color: #fff;
+.control {
+  border-radius: 50%;
+  background-color: #000;
+  color: #fff;
 }
-.carousel-control-prev{
-padding-left: 80%;
-opacity: 1;
+
+.carousel-control-prev {
+  padding-left: 80%;
+  opacity: 1;
 }
-.carousel-control-next{
+
+.carousel-control-next {
   padding-right: 80%;
   opacity: 1;
 }
-.heading{
+
+.heading {
   color: #000;
   top: 50%;
   transform: translateY(-50%);
 }
-.control:hover{
-    background-color: #FF5722;
+
+.control:hover {
+  background-color: #FF5722;
 }
-.scroll{
+
+.scroll {
   color: #FF5722;
   background-color: #fff;
   border-radius: 50%;
 }
-#insta{
-    background-color: #B0BEC5;
-    width: 100% !important
 
+#insta {
+  background-color: #B0BEC5;
+  width: 100% !important
 }
-#insta-head{
+
+#case-btn {
+  border-radius: 16px !important;
+  background-color: #000;
+  color: #fff;
+}
+
+#insta-head {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   color: #78909C;
   text-transform: uppercase;
 }
-#head{
+
+#head {
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
   text-transform: uppercase;
   margin-bottom: 1em;
 }
-#team{
+
+#team {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
-    padding-bottom: 1em;
+  padding-bottom: 1em;
   text-transform: uppercase;
 }
-#team-content{
+
+#team-content {
   font-family: 'Open Sans', sans-serif;
   font-weight: 200;
   padding-bottom: 1em;
@@ -55,107 +71,119 @@ opacity: 1;
   margin-bottom: 0;
   margin-top: 0;
 }
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
 
-     #app{
-         max-width: 100%;
-     }
-#feed{
-  display: inline;
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  #app {
+    max-width: 100%;
+  }
+  #feed {
+    display: inline;
+  }
+  .feed-card {
+    width: 100% !important;
+  }
+  .card-body {
+    font-size: 2em;
+  }
+  #team-content {
+    font-size: 2.5em;
+    padding: 1em !important;
+  }
+  #team {
+    font-size: 3.5em;
+    padding-bottom: : 0em !important;
+  }
+  #insta-id {
+    font-size: 2em;
+  }
+  #insta-head {
+    font-size: 2.5em;
+  }
 }
-.feed-card{
-  width: 100% !important;
-}
-.card-body{
-  font-size: 2em;
-}
-#team-content{
-  font-size: 2.5em;
-  padding: 1em !important;
 
-}
-#team{
-  font-size: 3.5em;
-  padding-bottom: : 0em !important;
-}
-#insta-id{
-  font-size: 2em;
-}
-#insta-head{
-  font-size: 2.5em;
-}
-}
-#container-carousel{
+#container-carousel {}
 
+#container-tam {
+  background-color: #fff;
 }
-#container-tam{
-background-color: #fff;
-}
-#main-body{
+
+#main-body {
   padding: 3em;
   padding-top: 0;
   background-color: #000;
 }
-.icons{
+
+.icons {
   color: #fff;
 }
-footer{
+
+footer {
   margin-top: 1em;
 }
-.social{
+
+.social {
   margin: 1em;
 }
-.navbar{
+
+.social>i:hover {
+  color: #f44336;
+}
+
+.navbar {
   background-color: #000 !important
 }
-.nav-link{
+
+.nav-link {
   color: #fff !important;
 }
-.navbar-brand{
-    color: #fff !important;
+
+.navbar-brand {
+  color: #fff !important;
 }
-.navbar-toggler{
-    background-color: #fff !important;
+
+.navbar-toggler {
+  background-color: #fff !important;
 }
+
 .modal-full {
-    min-width: 100%;
-    margin: 0;
+  min-width: 100%;
+  margin: 0;
 }
 
 .modal-full .modal-content {
-    min-height: 100vh;
-    background-color: #000;
+  min-height: 100vh;
+  background-color: #000;
 }
 
-#close{
+#close {
   font-size: 4em;
-    float: left;
-    color: #fff;
-    margin: .2em;
+  float: left;
+  color: #fff;
+  margin: .2em;
 }
-#close:hover{
-  color:#f44336 !important;
+
+#close:hover {
+  color: #f44336 !important;
 }
-#brand{
+
+#brand {
   font-size: 3em;
-float: left;
-color: #fff;
-opacity: 1;
-padding-top: .3em;
-padding-left: 30%;
+  float: left;
+  color: #fff;
+  opacity: 1;
+  padding-top: .3em;
+  padding-left: 30%;
 }
-#menu{
+
+#menu {
   font-size: 5em;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   text-transform: uppercase;
 }
-.nav-link:hover{
-    color:#f44336 !important;
-}
-#feed>div:nth-child(even):{
 
+.nav-link:hover {
+  color: #f44336 !important;
 }
+
+#feed>div:nth-child(even): {}

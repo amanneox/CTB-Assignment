@@ -1,13 +1,18 @@
 $(function() {
-    $('#carousel').each(function(){
-        $(this).carousel({
-            interval: false
-        });
+  $('#carousel').each(function() {
+    $(this).carousel({
+      interval: false
     });
-});​
-$(function() {
-  $('#scroll').on('click', function(e) {
-    e.preventDefault();
-    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+  });
+})
+$(document).ready(function() {
+
+
+
+  $("#scroll").click(function(event) {
+
+    $('html, body').animate({
+      scrollTop: '+=500px'
+    }, 800);
   });
 });

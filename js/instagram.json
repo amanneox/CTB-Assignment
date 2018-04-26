@@ -2,8 +2,7 @@
   "meta": {
     "code": 200
   },
-  "data": [
-    {
+  "data": [{
       "attribution": null,
       "tags": [],
       "type": "image",
