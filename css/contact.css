@@ -206,3 +206,9 @@ color: #fff;
 color: #fff;
 padding: .5em;
 }
+.valid{
+  background: url('../img/checked.png') center right 10px;
+  background-repeat: no-repeat;
+
+
+}

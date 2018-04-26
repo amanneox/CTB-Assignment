@@ -29,11 +29,15 @@ $(function() {
 
     invalidHandler: function(form, validator) {
       $('#failed').show();
-     },
+    },
+    success: function (label) {
+ label.addClass("valid");
+ label.remove();
+},
     submitHandler: function(form) {
       form.submit();
       $('#myform').remove();
-        $('#failed').remove();
+      $('#failed').remove();
       $('#success').show();
       e.preventDefault();
     }
