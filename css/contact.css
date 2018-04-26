@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+
+#form {
+  padding-top: 0;
+  padding-right: 14em;
+  padding-left: 14em;
+}
+form{
+  background-color: rgba(203,203,203,0.3);
+}
+#first-row{
+  padding-top: 1em;
+}
+.form-row{
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.send-wrapper{
+  padding-top: 2em;
+}
+#send{
+  border-radius: 14px;
+  color: #fff;
+  width: 130px;
+  background-color: #FF6E40;
+}
+#head-title {
+  padding: 3em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  padding-bottom: 1em;
+  text-transform: uppercase;
+}
+
+#main-body {
+  padding: 3em;
+  padding-top: 0;
+  background-color: #000;
+}
+
+.image-wrapper {
+  background: url('../img/third.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+.navbar {
+  background-color: #000 !important
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.navbar-brand {
+  color: #fff !important;
+}
+
+.navbar-toggler {
+  background-color: #fff !important;
+}
+
+.modal-full {
+  min-width: 100%;
+  margin: 0;
+}
+
+.modal-full .modal-content {
+  min-height: 100vh;
+  background-color: #000;
+}
+
+.icons {
+  color: #fff;
+}
+
+footer {
+  margin-top: 1em;
+}
+
+.social {
+  margin: 1em;
+}
+
+.social>i:hover {
+  color: #f44336;
+}
+
+#close {
+  float: left;
+  color: #fff;
+  margin: .2em;
+}
+
+#close:hover {
+  color: #f44336 !important;
+}
+
+#brand {
+  float: left;
+  color: #fff;
+  opacity: 1;
+  padding-top: .3em;
+  padding-left: 30%;
+}
+
+#menu {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: #f44336 !important;
+}
+
+#head-title {
+  color: #fff
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  #form {
+    padding-top: 0 !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+  #head-title{
+    padding: 0 !important;
+    padding-top: 1em !important;
+    font-size: 1.6em !important;
+  }
+  #main-body{
+    padding: 0;
+  }
+}
