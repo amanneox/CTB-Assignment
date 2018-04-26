@@ -34,7 +34,7 @@ form {
 }
 
 .send-wrapper {
-  padding-top: 2em;
+
 }
 
 #send {
@@ -152,6 +152,9 @@ footer {
   }
   #main-body {
     padding: 0;
+  }
+  input{
+    height: 32px;
   }
 }
 
